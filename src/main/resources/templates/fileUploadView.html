@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Registration</title>
+</head>
+<body>
+
+<h2>Submitted File</h2>
+<table>
+    <tr>
+        <td>OriginalFileName:</td>
+        <td>${file.originalFilename}</td>
+    </tr>
+    <tr>
+        <td>Type:</td>
+        <td>${file.contentType}</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
